@@ -1,0 +1,16 @@
+{
+  "name": "cursor-manual",
+  "version": "1.0.0",
+  "description": "Masa English チーム向け Cursor マニュアルサイト",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "keywords": [],
+  "author": "Masa English",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
