@@ -5,8 +5,9 @@
 
 ## ダウンロード用のURLをコピーする
 
-1. ブラウザでチームのリポジトリ（ファイル置き場）を開く
-   例：`https://github.com/Masa-English/リポジトリ名`
+1. ブラウザで以下のページを開く：
+   **https://github.com/Masa-English/Masa-English**
+
 2. 緑色の **「Code」** ボタンをクリック
 3. **「HTTPS」** が選ばれていることを確認
 4. URLの右の **📋ボタン** をクリックしてコピー
@@ -29,7 +30,7 @@
 
 4. 以下を打って Enter（ダウンロード開始）：
    ```bash
-   git clone コピーしたURLをここに貼り付け
+   git clone https://github.com/Masa-English/Masa-English.git
    ```
 
 5. **ログインを求められたら：**
@@ -41,7 +42,7 @@
 ## ダウンロードしたフォルダをCursorで開く
 
 1. Cursorのメニュー → **「File」** → **「Open Folder...」**
-2. Documentsフォルダの中にできたフォルダを選んで **「Open」**
+2. Documentsフォルダの中にできた **「Masa-English」** フォルダを選んで **「Open」**
 3. 「Trust the authors?」と出たら → **「Yes, I trust the authors」**
 
 左側にファイルの一覧が出ればOK！
