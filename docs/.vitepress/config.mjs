@@ -17,17 +17,19 @@ export default defineConfig({
         ]
       },
       {
-        text: '最初に1回だけ',
+        text: '最初に1回だけやること',
         items: [
           { text: '1. Cursorを入れる', link: '/01-cursor-install/' },
           { text: '2. GitHubに登録する', link: '/02-github-setup/' },
-          { text: '3. ファイルをダウンロードする', link: '/03-clone/' }
+          { text: '3. Claude Codeを入れる', link: '/03-claude-code/' },
+          { text: '4. 招待を受ける', link: '/04-invite/' },
+          { text: '5. ファイルをダウンロードする', link: '/05-clone/' }
         ]
       },
       {
-        text: '毎回の作業',
+        text: '毎日の作業',
         items: [
-          { text: '4. 編集のやり方', link: '/04-workflow/' }
+          { text: '6. 毎日の作業方法', link: '/06-workflow/' }
         ]
       },
       {
