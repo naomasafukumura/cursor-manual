@@ -10,11 +10,6 @@ Cursor（カーソル）は、AIが搭載されたコードエディタです。
 1. **Cursorの公式サイトにアクセス**
    ブラウザで [https://cursor.com](https://cursor.com) を開きます
 
-   <!-- ![Cursor公式サイト](/images/01-cursor-install/cursor-website-mac.png) -->
-   ::: tip スクリーンショット
-   📸 ここにCursor公式サイトのスクリーンショットが入ります
-   :::
-
 2. **「Download」ボタンをクリック**
    トップページの「Download for Mac」ボタンをクリックします
 
@@ -23,11 +18,6 @@ Cursor（カーソル）は、AIが搭載されたコードエディタです。
 
 4. **アプリケーションフォルダにドラッグ**
    Cursorのアイコンを「Applications」フォルダにドラッグ＆ドロップします
-
-   <!-- ![ドラッグ＆ドロップ](/images/01-cursor-install/drag-to-applications.png) -->
-   ::: tip スクリーンショット
-   📸 ここにドラッグ＆ドロップのスクリーンショットが入ります
-   :::
 
 5. **Cursorを起動**
    アプリケーションフォルダから「Cursor」をダブルクリックして起動します
@@ -50,10 +40,6 @@ Cursor（カーソル）は、AIが搭載されたコードエディタです。
 3. **ダウンロードされたファイルを実行**
    `CursorSetup-xxx.exe` というファイルがダウンロードされるので、ダブルクリックで実行します
 
-   ::: tip スクリーンショット
-   📸 ここにWindows版インストーラーのスクリーンショットが入ります
-   :::
-
 4. **インストールウィザードに従う**
    - 利用規約に同意 → **「Next」**
    - インストール先はデフォルトのまま → **「Next」**
@@ -73,10 +59,6 @@ Cursor（カーソル）は、AIが搭載されたコードエディタです。
 1. Cursorを起動した状態で、キーボードの **`Cmd + Shift + P`** を押す
 2. 表示された入力欄に **`Shell Command`** と入力
 3. **「Shell Command: Install 'cursor' command in PATH」** をクリック
-
-::: tip スクリーンショット
-📸 ここにShell Command設定のスクリーンショットが入ります
-:::
 
 ::: info 確認方法
 ターミナルで `cursor --version` と入力してバージョンが表示されればOKです
