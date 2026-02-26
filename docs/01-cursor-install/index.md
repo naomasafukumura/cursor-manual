@@ -1,69 +1,39 @@
-# 1. Cursorのインストール
+# 1. Cursorを入れる
 
-Cursor（カーソル）は、AIが搭載されたコードエディタです。
-このマニュアルでは、Cursorを使ってファイルの編集やGitHub との連携を行います。
+**Cursor（カーソル）** は、ファイルを編集するためのアプリです。
+WordやGoogleドキュメントのような感じで、ファイルを開いて書き換えることができます。
 
-## Mac の場合
+## Macの人
 
-### 手順
+1. ブラウザで **[cursor.com](https://cursor.com)** を開く
+2. **「Download for Mac」** をクリック
+3. ダウンロードされた `Cursor-xxx.dmg` をダブルクリック
+4. 出てきたCursorのアイコンを **Applicationsフォルダにドラッグ**（放り込む）
+5. ApplicationsフォルダからCursorを開く
+6. 「開いてもよろしいですか？」→ **「開く」** をクリック
+7. テーマ（見た目の色）を選んで **「Continue」**
+8. そのまま **「Continue」** でOK
 
-1. **Cursorの公式サイトにアクセス**
-   ブラウザで [https://cursor.com](https://cursor.com) を開きます
+## Windowsの人
 
-2. **「Download」ボタンをクリック**
-   トップページの「Download for Mac」ボタンをクリックします
+1. ブラウザで **[cursor.com](https://cursor.com)** を開く
+2. **「Download for Windows」** をクリック
+3. ダウンロードされた `CursorSetup-xxx.exe` をダブルクリック
+4. **「Next」→「Next」→「Install」** と進める
+5. デスクトップにできた「Cursor」を開く
+6. テーマ（見た目の色）を選んで **「Continue」**
+7. そのまま **「Continue」** でOK
 
-3. **ダウンロードされたファイルを開く**
-   `Cursor-xxx.dmg` というファイルがダウンロードされるので、ダブルクリックで開きます
+## `cursor` コマンドを使えるようにする（Macのみ）
 
-4. **アプリケーションフォルダにドラッグ**
-   Cursorのアイコンを「Applications」フォルダにドラッグ＆ドロップします
+あとで使うので、やっておいてください：
 
-5. **Cursorを起動**
-   アプリケーションフォルダから「Cursor」をダブルクリックして起動します
-
-6. **初回起動時の設定**
-   - 「開いてもよろしいですか？」→ **「開く」** をクリック
-   - テーマの選択 → お好みのテーマを選んで **「Continue」**
-   - 拡張機能のインストール → そのまま **「Continue」** でOK
-
-## Windows の場合
-
-### 手順
-
-1. **Cursorの公式サイトにアクセス**
-   ブラウザで [https://cursor.com](https://cursor.com) を開きます
-
-2. **「Download」ボタンをクリック**
-   トップページの「Download for Windows」ボタンをクリックします
-
-3. **ダウンロードされたファイルを実行**
-   `CursorSetup-xxx.exe` というファイルがダウンロードされるので、ダブルクリックで実行します
-
-4. **インストールウィザードに従う**
-   - 利用規約に同意 → **「Next」**
-   - インストール先はデフォルトのまま → **「Next」**
-   - **「Install」** をクリック
-
-5. **Cursorを起動**
-   デスクトップまたはスタートメニューから「Cursor」を起動します
-
-6. **初回起動時の設定**
-   - テーマの選択 → お好みのテーマを選んで **「Continue」**
-   - 拡張機能のインストール → そのまま **「Continue」** でOK
-
-## Cursorのコマンドをターミナルから使えるようにする（Mac のみ）
-
-後の手順で便利になるため、`cursor` コマンドをターミナルから使えるようにしておきます。
-
-1. Cursorを起動した状態で、キーボードの **`Cmd + Shift + P`** を押す
-2. 表示された入力欄に **`Shell Command`** と入力
+1. Cursorを開いた状態で **`Cmd + Shift + P`** を押す
+2. 出てきた入力欄に **`Shell Command`** と打つ
 3. **「Shell Command: Install 'cursor' command in PATH」** をクリック
 
-::: info 確認方法
-ターミナルで `cursor --version` と入力してバージョンが表示されればOKです
+::: info これで完了！
+Cursorが開ければOKです。次に進みましょう。
 :::
 
-## 次のステップ
-
-Cursorのインストールが完了したら、次は [GitHubアカウントの作成](/02-github-setup/) に進みましょう。
+→ 次は [2. GitHubに登録する](/02-github-setup/)

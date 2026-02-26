@@ -1,97 +1,66 @@
-# 3. Gitの初期設定
+# 3. 自分の名前を設定する
 
-Git（ギット）は、ファイルの変更履歴を管理するためのツールです。
-Cursorのターミナルを使って、最初に1回だけ設定を行います。
+ファイルを編集したとき、「**誰が編集したか**」がわかるように、名前とメールアドレスを登録します。
 
 ## ターミナルを開く
 
-Cursorの中には「ターミナル」という、コマンドを入力する画面があります。
+「ターミナル」は、文字を打ってパソコンに命令するための画面です。
+Cursorの中に入っています。
 
-### 手順
+1. **Cursorを開く**
+2. キーボードで **`Ctrl + `` `** を押す（Ctrlキーを押しながら、左上のバッククォートキー）
+3. 画面の下にターミナルが出てきます
 
-1. **Cursorを起動**します
+::: info 開かない場合
+画面上のメニューから **「Terminal」→「New Terminal」** をクリックしてもOKです。
+:::
 
-2. **ターミナルを開く**
-   - Mac：**`Ctrl + `` `**（Controlキー + バッククォート）
-   - Windows：**`Ctrl + `` `**（Controlキー + バッククォート）
-   - または、メニューバーの **「Terminal」→「New Terminal」**
+## 名前とメールを登録する
 
-## ユーザー名とメールアドレスを設定する
+ターミナルに以下を **1行ずつ** 打って、そのたびに Enter を押してください。
 
-ターミナルに以下のコマンドを **1行ずつ** 入力して、Enterキーを押します。
+**① 名前を登録する（自分の名前に変えてね）：**
 
-### 手順
+```bash
+git config --global user.name "Taro Yamada"
+```
 
-1. **ユーザー名を設定**
-   以下のコマンドを入力して Enter を押します（`あなたの名前` の部分を自分の名前に変えてください）
+**② メールを登録する（自分のメールに変えてね）：**
 
-   ```bash
-   git config --global user.name "あなたの名前"
-   ```
+```bash
+git config --global user.email "taro@masaenglishcompany.com"
+```
 
-   **例：**
-   ```bash
-   git config --global user.name "Taro Yamada"
-   ```
-
-2. **メールアドレスを設定**
-   以下のコマンドを入力して Enter を押します（メールアドレスを自分のものに変えてください）
-
-   ```bash
-   git config --global user.email "あなたのメール@masaenglishcompany.com"
-   ```
-
-   **例：**
-   ```bash
-   git config --global user.email "taro@masaenglishcompany.com"
-   ```
-
-## 設定を確認する
-
-正しく設定できたか確認しましょう。
+**③ ちゃんと登録できたか確認：**
 
 ```bash
 git config --global user.name
 git config --global user.email
 ```
 
-自分の名前とメールアドレスが表示されればOKです。
+自分の名前とメールが表示されたら成功です！
 
-## GitHub との認証設定
+## GitHubへの接続設定
 
-リポジトリをクローン（ダウンロード）するとき、GitHubへのログインが求められます。
-初回のみ以下の手順で認証を行います。
+ファイルをダウンロード/アップロードするとき、GitHubにログインが必要です。
 
-### Mac の場合
+### Windowsの人
+特に何もしなくてOK。次のステップでブラウザが開いてログインを求められるので、そのときにサインインすればOKです。
 
-1. ターミナルで以下のコマンドを実行：
-   ```bash
-   git credential-store
-   ```
-2. 次の手順（クローン）で GitHub のユーザー名・パスワードを求められたら入力します
-3. パスワードの代わりに **Personal Access Token** を使います（後述）
+### Macの人
+「**パスワードの代わりのカギ**」（Personal Access Token）を作ります。
 
-### Windows の場合
-
-Windows では Git をインストールすると **Git Credential Manager** が自動で入るため、特別な設定は不要です。
-クローン時にブラウザが開いて GitHub にログインを求められるので、サインインすればOKです。
-
-### Personal Access Token の作り方
-
-GitHub のパスワードの代わりに使う「トークン」を作成します。
-
-1. GitHubにログインした状態で [https://github.com/settings/tokens](https://github.com/settings/tokens) にアクセス
+1. ブラウザで **[github.com/settings/tokens](https://github.com/settings/tokens)** を開く
 2. **「Generate new token (classic)」** をクリック
-3. **Note** に「Cursor」と入力
-4. **Expiration** を「No expiration」に設定（※ セキュリティ上90日推奨）
-5. **Select scopes** で **「repo」** にチェック ✅
-6. **「Generate token」** をクリック
-7. 表示されたトークンを **コピーして安全な場所に保存**（⚠️ 一度しか表示されません！）
+3. 「Note」に **`Cursor`** と入力
+4. 「Expiration」は **「No expiration」** を選ぶ
+5. 「repo」に **チェック ✅** を入れる
+6. 下の **「Generate token」** をクリック
+7. 表示された文字列を **コピーしてメモ帳などに保存**
 
-::: danger 重要
-トークンはパスワードと同じです。他の人に共有しないでください。
+::: danger この文字列は大事！
+表示されるのは1回だけです。必ずコピーして保存してください。
+これがGitHubにログインするときの「パスワード代わり」になります。
 :::
 
-## 次のステップ
-
-Gitの初期設定が完了したら、次は [リポジトリをクローン](/04-clone/) に進みましょう。
+→ 次は [4. ファイルをダウンロードする](/04-clone/)

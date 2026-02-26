@@ -13,36 +13,31 @@ export default defineConfig({
       {
         text: 'はじめに',
         items: [
-          { text: 'このマニュアルについて', link: '/' }
+          { text: 'トップページ', link: '/' }
         ]
       },
       {
-        text: 'セットアップ',
+        text: '最初に1回だけやること',
         items: [
-          { text: '1. Cursorのインストール', link: '/01-cursor-install/' },
-          { text: '2. GitHubアカウント作成', link: '/02-github-setup/' },
-          { text: '3. Gitの初期設定', link: '/03-git-setup/' },
-          { text: '4. リポジトリをクローン', link: '/04-clone/' }
+          { text: '1. Cursorを入れる', link: '/01-cursor-install/' },
+          { text: '2. GitHubに登録する', link: '/02-github-setup/' },
+          { text: '3. 名前を設定する', link: '/03-git-setup/' },
+          { text: '4. ファイルをダウンロード', link: '/04-clone/' }
         ]
       },
       {
-        text: '日常の操作',
+        text: '毎回の作業',
         items: [
-          { text: '5. ブランチを作成する', link: '/05-branch/' },
-          { text: '6. ファイルを編集・保存', link: '/06-edit-save/' },
-          { text: '7. コミット & プッシュ', link: '/07-commit-push/' },
-          { text: '8. プルリクエスト', link: '/08-pull-request/' }
+          { text: '5. 作業スペースを作る', link: '/05-branch/' },
+          { text: '6. ファイルを編集する', link: '/06-edit-save/' },
+          { text: '7. 変更を送る', link: '/07-commit-push/' },
+          { text: '8. 確認してもらう', link: '/08-pull-request/' }
         ]
       },
       {
-        text: '応用',
+        text: 'おまけ',
         items: [
-          { text: '9. Claude Codeの使い方', link: '/09-claude-code/' }
-        ]
-      },
-      {
-        text: '付録',
-        items: [
+          { text: '9. AIに手伝ってもらう', link: '/09-claude-code/' },
           { text: '用語集', link: '/glossary' }
         ]
       }
