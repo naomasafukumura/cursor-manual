@@ -24,6 +24,15 @@ WordやGoogleドキュメントのようなものだと思ってください。
 6. 見た目の色を選ぶ画面 → お好みで選んで **「Continue」**
 7. そのまま **「Continue」** でOK
 
+## Gitを入れる（Windowsの人だけ）
+
+CursorでファイルをGitHubと同期するには「Git」が必要です。
+**Macの人は最初から入っているので、この手順は不要です。**
+
+1. ブラウザで **[git-scm.com](https://git-scm.com)** を開く
+2. **「Download for Windows」** をクリック
+3. ダウンロードされたファイルを開いてインストール（全部「Next」でOK）
+
 ::: info 確認
 Cursorが開ければこのステップは完了です！
 :::
