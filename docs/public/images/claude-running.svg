@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 350" font-family="'Courier New', monospace">
+  <!-- Window -->
+  <rect width="700" height="350" rx="10" fill="#0d0d1a"/>
+  <!-- Title bar -->
+  <rect width="700" height="30" rx="10" fill="#2a2a3a"/>
+  <rect y="20" width="700" height="10" fill="#2a2a3a"/>
+  <circle cx="15" cy="15" r="6" fill="#ff5f57"/>
+  <circle cx="35" cy="15" r="6" fill="#febc2e"/>
+  <circle cx="55" cy="15" r="6" fill="#28c840"/>
+
+  <!-- Claude Code header -->
+  <text x="250" y="60" fill="#888" font-size="12">── Claude Code v2.1 ──</text>
+
+  <!-- Welcome box -->
+  <rect x="100" y="75" width="500" height="80" rx="6" fill="none" stroke="#e87040" stroke-width="1"/>
+  <text x="120" y="100" fill="#fff" font-size="16" font-weight="bold" font-family="'Helvetica Neue', Arial, sans-serif">Welcome back!</text>
+
+  <!-- Tips -->
+  <rect x="380" y="82" width="210" height="65" rx="4" fill="none" stroke="#e87040" stroke-width="1"/>
+  <text x="390" y="100" fill="#e87040" font-size="11" font-family="'Helvetica Neue', Arial, sans-serif">Tips for getting started</text>
+  <text x="390" y="118" fill="#ccc" font-size="10" font-family="'Helvetica Neue', Arial, sans-serif">Ask Claude to create a new</text>
+  <text x="390" y="132" fill="#ccc" font-size="10" font-family="'Helvetica Neue', Arial, sans-serif">app or clone a repository</text>
+
+  <!-- Mascot placeholder -->
+  <text x="250" y="135" fill="#e87040" font-size="24">🤖</text>
+  <text x="120" y="145" fill="#888" font-size="11" font-family="'Helvetica Neue', Arial, sans-serif">Opus 4.6 · Claude Max</text>
+
+  <!-- User prompt -->
+  <rect x="30" y="180" width="640" height="30" rx="4" fill="#1a1a2e"/>
+  <text x="45" y="200" fill="#6c6cff" font-size="13">❯</text>
+  <text x="65" y="200" fill="#fff" font-size="13" font-family="'Helvetica Neue', Arial, sans-serif">更新ある？あったら最新にして</text>
+
+  <!-- Claude response -->
+  <text x="45" y="235" fill="#28c840" font-size="12">●</text>
+  <text x="65" y="235" fill="#fff" font-size="13" font-family="'Helvetica Neue', Arial, sans-serif">リポジトリの最新状況です：</text>
+
+  <text x="75" y="260" fill="#ccc" font-size="12" font-family="'Helvetica Neue', Arial, sans-serif">最新の push は本日 15:01 です。</text>
+  <text x="75" y="280" fill="#ccc" font-size="12" font-family="'Helvetica Neue', Arial, sans-serif">変更内容：index.html のCSS改善</text>
+
+  <text x="75" y="310" fill="#28c840" font-size="12" font-family="'Helvetica Neue', Arial, sans-serif">最新の状態に更新しました！</text>
+
+  <!-- Annotation -->
+  <text x="350" y="340" text-anchor="middle" fill="#febc2e" font-size="11" font-family="'Helvetica Neue', Arial, sans-serif">↑ 日本語で話しかけるだけ！Claudeが全部やってくれます</text>
+</svg>

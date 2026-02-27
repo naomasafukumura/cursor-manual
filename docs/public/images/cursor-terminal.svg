@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" font-family="'Helvetica Neue', Arial, sans-serif">
+  <!-- Window -->
+  <rect width="700" height="400" rx="10" fill="#1e1e2e"/>
+  <!-- Title bar -->
+  <rect width="700" height="30" rx="10" fill="#2a2a3a"/>
+  <rect y="20" width="700" height="10" fill="#2a2a3a"/>
+  <circle cx="15" cy="15" r="6" fill="#ff5f57"/>
+  <circle cx="35" cy="15" r="6" fill="#febc2e"/>
+  <circle cx="55" cy="15" r="6" fill="#28c840"/>
+
+  <!-- Menu bar -->
+  <rect y="30" width="700" height="25" fill="#252535"/>
+  <text x="20" y="47" fill="#ccc" font-size="12">File</text>
+  <text x="55" y="47" fill="#ccc" font-size="12">Edit</text>
+  <text x="90" y="47" fill="#ccc" font-size="12">Selection</text>
+  <text x="150" y="47" fill="#ccc" font-size="12">View</text>
+  <text x="190" y="47" fill="#fff" font-size="12" font-weight="bold">Terminal</text>
+  <!-- Dropdown -->
+  <rect x="180" y="55" width="160" height="90" rx="4" fill="#333345" stroke="#555" stroke-width="1"/>
+  <rect x="185" y="60" width="150" height="25" rx="3" fill="#4c4cff"/>
+  <text x="195" y="77" fill="#fff" font-size="12" font-weight="bold">New Terminal</text>
+  <text x="185" y="100" fill="#ccc" font-size="12">Split Terminal</text>
+  <text x="185" y="120" fill="#ccc" font-size="12">Run Task...</text>
+
+  <!-- Editor area (empty) -->
+  <rect y="55" width="170" height="345" fill="#1a1a2a"/>
+  <text x="85" y="150" text-anchor="middle" fill="#555" font-size="11">EXPLORER</text>
+
+  <!-- Terminal area -->
+  <rect x="170" y="250" width="530" height="150" fill="#0d0d1a"/>
+  <!-- Terminal tabs -->
+  <rect x="170" y="240" width="530" height="20" fill="#1a1a2a"/>
+  <text x="180" y="254" fill="#888" font-size="10">Problems</text>
+  <text x="240" y="254" fill="#888" font-size="10">Output</text>
+  <text x="290" y="254" fill="#fff" font-size="10" font-weight="bold">Terminal</text>
+
+  <text x="185" y="280" fill="#28c840" font-size="12">$</text>
+  <text x="200" y="280" fill="#fff" font-size="12">claude --dangerously-skip-permissions</text>
+  <rect x="453" y="268" width="8" height="15" fill="#fff" opacity="0.7"/>
+
+  <!-- Arrow annotation -->
+  <line x1="165" y1="68" x2="185" y2="60" stroke="#febc2e" stroke-width="2"/>
+  <text x="100" y="73" fill="#febc2e" font-size="11">ここをクリック！</text>
+</svg>

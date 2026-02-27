@@ -6,6 +6,8 @@
 
 Cursorを起動すると、スタート画面が表示されます。
 
+![Cursorスタート画面](/images/cursor-start.svg)
+
 - **初めて開く場合** → **「Open project」** をクリック → 編集したいフォルダを選んで **「開く」**
 - **2回目以降** → **「Recent projects」** に前回のプロジェクトが表示されるので、**クリックするだけ**
 
@@ -36,6 +38,8 @@ claude --dangerously-skip-permissions
 :::
 
 「Welcome back!」と表示されたら起動成功です！
+
+![Claude Code 起動画面](/images/claude-running.svg)
 
 ## ④ まず最新にする
 
