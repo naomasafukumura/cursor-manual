@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="'Helvetica Neue', Arial, sans-serif">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8f9fa" rx="12"/>
+
+  <!-- Vercel Box -->
+  <rect x="30" y="140" width="160" height="80" rx="10" fill="#000" stroke="#000" stroke-width="2"/>
+  <text x="110" y="175" text-anchor="middle" fill="#fff" font-size="18" font-weight="bold">Vercel</text>
+  <text x="110" y="200" text-anchor="middle" fill="#ccc" font-size="13">サイト公開</text>
+
+  <!-- Arrow: GitHub → Vercel -->
+  <line x1="230" y1="180" x2="195" y2="180" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="212" y="170" text-anchor="middle" fill="#888" font-size="11">自動</text>
+
+  <!-- GitHub Box -->
+  <rect x="240" y="140" width="180" height="80" rx="10" fill="#24292e" stroke="#24292e" stroke-width="2"/>
+  <text x="330" y="175" text-anchor="middle" fill="#fff" font-size="18" font-weight="bold">GitHub</text>
+  <text x="330" y="200" text-anchor="middle" fill="#ccc" font-size="13">共有フォルダ</text>
+
+  <!-- Arrow: Cursor1 → GitHub -->
+  <line x1="510" y1="110" x2="425" y2="160" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <!-- Arrow: GitHub → Cursor1 -->
+  <line x1="430" y1="155" x2="515" y2="105" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="480" y="115" text-anchor="middle" fill="#888" font-size="11">同期</text>
+
+  <!-- Arrow: Cursor2 → GitHub -->
+  <line x1="510" y1="290" x2="425" y2="220" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <!-- Arrow: GitHub → Cursor2 -->
+  <line x1="430" y1="225" x2="515" y2="295" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="480" y="275" text-anchor="middle" fill="#888" font-size="11">同期</text>
+
+  <!-- Cursor Box 1 (メンバーA) -->
+  <rect x="520" y="50" width="240" height="100" rx="10" fill="#4F46E5" stroke="#4F46E5" stroke-width="2"/>
+  <text x="640" y="85" text-anchor="middle" fill="#fff" font-size="17" font-weight="bold">Cursor（Claude）</text>
+  <text x="640" y="110" text-anchor="middle" fill="#ddd" font-size="13">メンバー A のパソコン</text>
+  <text x="640" y="130" text-anchor="middle" fill="#c4b5fd" font-size="11">日本語で話しかけるだけ</text>
+
+  <!-- Cursor Box 2 (メンバーB) -->
+  <rect x="520" y="250" width="240" height="100" rx="10" fill="#4F46E5" stroke="#4F46E5" stroke-width="2"/>
+  <text x="640" y="285" text-anchor="middle" fill="#fff" font-size="17" font-weight="bold">Cursor（Claude）</text>
+  <text x="640" y="310" text-anchor="middle" fill="#ddd" font-size="13">メンバー B のパソコン</text>
+  <text x="640" y="330" text-anchor="middle" fill="#c4b5fd" font-size="11">日本語で話しかけるだけ</text>
+
+  <!-- Dots for more members -->
+  <text x="640" y="385" text-anchor="middle" fill="#999" font-size="14">. . .</text>
+  <text x="640" y="398" text-anchor="middle" fill="#999" font-size="11">他のメンバーも同じ</text>
+
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" fill="#333" font-size="16" font-weight="bold">全体の仕組み</text>
+
+  <!-- Arrowhead marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+</svg>
