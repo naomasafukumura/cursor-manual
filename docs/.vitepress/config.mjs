@@ -18,12 +18,6 @@ export default defineConfig({
     ],
     sidebar: [
       {
-        text: 'はじめに',
-        items: [
-          { text: 'トップページ', link: '/' }
-        ]
-      },
-      {
         text: '最初に1回だけやること',
         items: [
           { text: '1. GitHubに登録する', link: '/01-github-setup/' },
