@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'Cursor マニュアル',
-  description: 'Masa English チーム向け Cursor & GitHub 操作ガイド',
+  title: 'チーム作業マニュアル',
+  description: 'Masa English チーム向け ターミナル & GitHub 操作ガイド',
   lang: 'ja',
   themeConfig: {
     nav: [
@@ -19,11 +19,11 @@ export default defineConfig({
       {
         text: '最初に1回だけやること',
         items: [
-          { text: '1. Cursorを入れる', link: '/01-cursor-install/' },
-          { text: '2. GitHubに登録する', link: '/02-github-setup/' },
-          { text: '3. Claude Codeを入れる', link: '/03-claude-code/' },
+          { text: '1. GitHubに登録する', link: '/01-github-setup/' },
+          { text: '2. ツールをインストールする', link: '/02-tools-install/' },
+          { text: '3. Claude Codeにログインする', link: '/03-claude-login/' },
           { text: '4. 招待を受ける', link: '/04-invite/' },
-          { text: '5. ファイルをダウンロードする', link: '/05-clone/' }
+          { text: '5. プロジェクトをダウンロードする', link: '/05-clone/' }
         ]
       },
       {
@@ -35,7 +35,9 @@ export default defineConfig({
       {
         text: '付録',
         items: [
-          { text: '用語集', link: '/glossary' }
+          { text: 'トラブルシューティング', link: '/troubleshooting' },
+          { text: '用語集', link: '/glossary' },
+          { text: '(任意) Cursorを使う場合', link: '/cursor-option' }
         ]
       }
     ],
