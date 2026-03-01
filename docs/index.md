@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: Masa English
+  name: Cursor
   text: チーム作業マニュアル
-  tagline: ターミナルから Claude Code に日本語で話しかけるだけ。GitHub・Vercel と連携して、チームのファイルをみんなで安全に編集できます。
+  tagline: Cursorのターミナルから Claude Code に日本語で話しかけるだけ。GitHub・Vercel と連携して、チームのファイルをみんなで安全に編集できます。
   actions:
     - theme: brand
       text: はじめる →
@@ -20,7 +20,7 @@ features:
     link: /01-github-setup/
   - icon: 📦
     title: 2. ツールをインストールする
-    details: Git・Node.js・Claude Code の3つをインストール。10分で完了します。
+    details: Cursor・Git・Node.js・Claude Code をインストール。10分で完了します。
     link: /02-tools-install/
   - icon: 🔑
     title: 3. Claude Codeにログインする
@@ -44,7 +44,7 @@ features:
 
 ![全体の仕組み](/images/system-diagram.svg)
 
-- **ターミナル + Claude Code** = 各メンバーのパソコンでファイルを編集する。AIに日本語で話しかけるだけ
+- **Cursor + Claude Code** = 各メンバーのパソコンでファイルを編集する。Cursorのターミナルから日本語で話しかけるだけ
 - **GitHub** = チームの共有フォルダ（ネット上）。みんなの変更がここに集まる
 - **Vercel** = サイトとして公開。GitHubに送ると自動で更新される
 - **Neon** = データベース（データの保管場所）。[neon.com](https://neon.com/) で管理

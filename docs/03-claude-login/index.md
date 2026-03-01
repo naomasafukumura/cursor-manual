@@ -1,11 +1,11 @@
 # 3. Claude Codeにログインする
 
-**Claude Code（クロード・コード）** は、ターミナルで使えるAIアシスタントです。
+**Claude Code（クロード・コード）** は、Cursorのターミナルで使えるAIアシスタントです。
 日本語で「〇〇して」と頼むだけで、ファイルの編集やGitの操作を全部やってくれます。
 
 ## ログインする
 
-1. ターミナルを開く（Mac：ターミナル.app、Windows：PowerShell）
+1. Cursorを開いて、**Terminal → New Terminal** でターミナルを表示
 2. 以下を打って **Enter**：
 
 ```bash

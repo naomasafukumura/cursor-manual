@@ -2,12 +2,18 @@
 
 ここからが毎回の作業です。**全部 Claude Code に日本語で話しかけるだけ** です。
 
-## ① ターミナルを開く
+## ① Cursorでプロジェクトを開く
 
-- **Mac** → 「ターミナル.app」を開く（Spotlight検索で「ターミナル」と入力）
-- **Windows** → 「PowerShell」を開く（スタートメニューで「PowerShell」と検索）
+1. Cursorを起動
+2. **「Open project」** をクリック → プロジェクトフォルダを選んで **「開く」**
+3. 「Trust the authors?」と出たら → **「Yes, I trust the authors」**
+4. **Terminal → New Terminal** でターミナルを表示
 
-## ② プロジェクトフォルダに移動する
+::: tip すでにプロジェクトを開いている場合
+Cursorに前回のプロジェクトが残っていればそのままでOKです。ターミナルだけ開いてください。
+:::
+
+## ② プロジェクトフォルダにいることを確認
 
 ```bash
 cd ~/Documents/プロジェクト名

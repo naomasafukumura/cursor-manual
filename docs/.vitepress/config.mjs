@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'Masa English',
-  description: 'チーム作業マニュアル — ターミナル & GitHub 操作ガイド',
+  title: 'Cursor',
+  description: 'チーム作業マニュアル — Cursor & GitHub 操作ガイド',
   lang: 'ja',
   head: [
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
@@ -10,7 +10,7 @@ export default defineConfig({
     ['link', { href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+JP:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap', rel: 'stylesheet' }]
   ],
   themeConfig: {
-    siteTitle: 'Masa English',
+    siteTitle: 'Cursor',
     nav: [
       { text: 'ホーム', link: '/' },
       { text: 'トラブルシューティング', link: '/troubleshooting' },
@@ -38,7 +38,7 @@ export default defineConfig({
         items: [
           { text: 'トラブルシューティング', link: '/troubleshooting' },
           { text: '用語集', link: '/glossary' },
-          { text: '(任意) Cursorを使う場合', link: '/cursor-option' }
+          { text: 'Cursor Tips', link: '/cursor-tips' }
         ]
       }
     ],

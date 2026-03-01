@@ -1,20 +1,45 @@
 # 2. ツールをインストールする
 
-作業に必要な3つのツール（**Git**・**Node.js**・**Claude Code**）をインストールします。
+作業に必要な4つのツール（**Cursor**・**Git**・**Node.js**・**Claude Code**）をインストールします。
 
-## まずターミナルを開く
+## ① Cursorをインストールする
 
-ターミナルは、文字を打ってパソコンに命令する画面です。
+**Cursor（カーソル）** は、ファイルを編集するためのアプリです。この中にあるターミナルを使って作業します。
 
-- **Mac** → 「ターミナル.app」を開く（Spotlight検索で「ターミナル」と入力すると見つかります）
-- **Windows** → 「PowerShell」を開く（スタートメニューで「PowerShell」と検索）
+### Macの人
 
-::: tip ターミナルが見つからない？
-- **Mac**：Finder → アプリケーション → ユーティリティ → ターミナル
-- **Windows**：スタートボタンを右クリック → 「Windows PowerShell」
+1. ブラウザで **[cursor.com](https://cursor.com)** を開く
+2. **「Download for Mac」** をクリック
+3. ダウンロードされた `Cursor-xxx.dmg` をダブルクリック
+4. 出てきたCursorのアイコンを **Applicationsフォルダにドラッグ**（放り込む）
+5. Applicationsフォルダから「Cursor」をダブルクリックして開く
+6. 「開いてもよろしいですか？」→ **「開く」** をクリック
+7. 見た目の色を選ぶ画面 → お好みで選んで **「Continue」**
+8. そのまま **「Continue」** でOK
+
+### Windowsの人
+
+1. ブラウザで **[cursor.com](https://cursor.com)** を開く
+2. **「Download for Windows」** をクリック
+3. ダウンロードされた `CursorSetup-xxx.exe` をダブルクリック
+4. **「Next」→「Next」→「Install」** と進める
+5. デスクトップにできた「Cursor」をダブルクリックして開く
+6. 見た目の色を選ぶ画面 → お好みで選んで **「Continue」**
+7. そのまま **「Continue」** でOK
+
+## Cursorのターミナルを開く
+
+ここから先のインストール作業は、**Cursorのターミナル** を使います。
+
+1. Cursorを起動
+2. 画面上のメニューから **「Terminal」→「New Terminal」** をクリック
+3. 画面の下に黒い画面（ターミナル）が表示されます
+
+::: tip ターミナルが表示されない場合
+キーボードで **Ctrl + `**（バッククォート）を押しても開けます。
 :::
 
-## ① Gitを入れる
+## ② Gitを入れる
 
 Git はファイルの変更履歴を記録するツールです。
 
@@ -62,7 +87,7 @@ git --version
 2. **「Download for Windows」** をクリック
 3. ダウンロードされたファイルを開いてインストール（全部「Next」でOK）
 
-## ② Node.js を入れる
+## ③ Node.js を入れる
 
 Claude Codeを動かすのに必要なソフトです。
 
@@ -80,9 +105,9 @@ Claude Codeを動かすのに必要なソフトです。
 3. ダウンロードページが開くので、**「Windows インストーラー (.msi)」** をクリック
 4. ダウンロードされたファイルを開いてインストール（全部「Next」でOK）
 
-## ③ Claude Code をインストールする
+## ④ Claude Code をインストールする
 
-ターミナルに以下をコピー＆ペーストして **Enter** を押す：
+Cursorのターミナルに以下をコピー＆ペーストして **Enter** を押す：
 
 ```bash
 npm install -g @anthropic-ai/claude-code
