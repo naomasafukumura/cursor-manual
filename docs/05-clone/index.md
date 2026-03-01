@@ -84,9 +84,16 @@ vercel link
 以下のように聞かれます：
 
 - **「Set up …?」** → **「Yes」**
-- **「Which scope …?」** → **「MasaEnglish」** を選択（個人アカウントではなくチームを選んでください）
+- **「Which scope …?」** → **必ず「MasaEnglish」を選択**
 - **「Link to existing project?」** → **「Yes」**
 - **「What's the name …?」** → リポジトリ名を入力（例：`paraphrase`）
+
+::: danger 「Which scope」では必ず MasaEnglish を選んでください！
+ここで自分の個人アカウント名を選んでしまうと、**チームとは別の場所にサイトが公開されてしまいます。**
+個人アカウントで公開されたサイトは、チームメンバーが管理できません。
+
+もし間違えた場合は [トラブルシューティング](/troubleshooting#vercel-personal) を見てください。
+:::
 
 これで紐づけ完了です！
 

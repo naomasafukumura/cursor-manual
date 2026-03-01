@@ -71,6 +71,58 @@ cd ~/Documents/プロジェクト名
 
 **対処法：** Claude Code に「コンフリクトを直して」と言えば解決してくれます。
 
+## Vercel関連
+
+### 個人アカウントでデプロイしてしまった {#vercel-personal}
+
+`vercel link` や `vercel --prod` のときに **MasaEnglish** ではなく自分の個人アカウントを選んでしまうと、チームとは別の場所にサイトが公開されてしまいます。
+
+**確認方法：** ターミナルでプロジェクトフォルダに移動して以下を実行：
+
+```bash
+cat .vercel/project.json
+```
+
+表示された内容の中に `"orgId"` がありますが、それだけでは判別しにくいので、以下で確認してください：
+
+```bash
+npx vercel project ls
+```
+
+プロジェクトが **MasaEnglish** のチーム配下に表示されていればOKです。
+自分の個人名の配下に表示されている場合は、以下の手順で修正してください。
+
+**対処法：**
+
+1. 今の紐づけを解除する：
+
+```bash
+rm -rf .vercel
+```
+
+2. MasaEnglish チームに紐づけ直す：
+
+```bash
+vercel link
+```
+
+3. 聞かれたら **必ず「MasaEnglish」** を選択：
+   - 「Set up …?」→ **Yes**
+   - 「Which scope …?」→ **MasaEnglish**（自分の名前ではなくチーム名！）
+   - 「Link to existing project?」→ **Yes**
+   - 「What's the name …?」→ プロジェクト名を入力
+
+4. 紐づけが完了したら、環境変数を取得し直す：
+
+```bash
+vercel env pull
+```
+
+::: tip 個人アカウントに残ったプロジェクトの削除
+個人アカウント側に作ってしまったプロジェクトは、[vercel.com](https://vercel.com) にログインして、Settings → Delete Project から削除できます。
+わからなければ管理者に相談してください。
+:::
+
 ## その他
 
 ### 何をしていいか分からなくなった
