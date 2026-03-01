@@ -1,12 +1,19 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'チーム作業マニュアル',
-  description: 'Masa English チーム向け ターミナル & GitHub 操作ガイド',
+  title: 'Masa English',
+  description: 'チーム作業マニュアル — ターミナル & GitHub 操作ガイド',
   lang: 'ja',
+  head: [
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    ['link', { href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+JP:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap', rel: 'stylesheet' }]
+  ],
   themeConfig: {
+    siteTitle: 'Masa English',
     nav: [
       { text: 'ホーム', link: '/' },
+      { text: 'トラブルシューティング', link: '/troubleshooting' },
       { text: '用語集', link: '/glossary' }
     ],
     sidebar: [
@@ -42,7 +49,8 @@ export default defineConfig({
       }
     ],
     outline: {
-      label: '目次'
+      label: '目次',
+      level: [2, 3]
     },
     search: {
       provider: 'local',
@@ -63,6 +71,9 @@ export default defineConfig({
     },
     lastUpdated: {
       text: '最終更新'
-    }
+    },
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/Masa-English' }
+    ]
   }
 })
